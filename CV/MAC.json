@@ -1,0 +1,289 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.3"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Juan",
+      "surnames": "Domingo Ortín",
+      "description": "I enjoy with Java, JavaScript and Python technologies, and above all, built and run my own apps (mobile, web, desktop, etc). In the future, I would like work with AI, Machine Learning, Science Data and Big Data, but now, I'm satisfied developing Spring Boot Apps or JavaScript with React apps. I have found my passion: var myPassion => function (motivation, knowledge, years) { var index = motivation * knowledge * years ; console.log('Juan Development index = ' + index !!!) }",
+      "location": {
+        "notes": "Torrejón de Ardoz"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "github",
+        "URL": "https://github.com/john-sunday?tab=repositories"
+      },
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/juan-domingo/"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Whenwhyhow.tech",
+          "image": {
+            "alt": "wwh_logo.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/25/6cb14e94-d143-4904-9119-a3a815022dc8_wwh_logo.png"
+          },
+          "URL": "https://whenwhyhow.tech/"
+        },
+        "roles": [
+          {
+            "name": "Python Developer",
+            "startDate": "2021-10-01",
+            "finishDate": "2022-03-01",
+            "challenges": [
+              {
+                "description": "DESCRIPTION:\nProduct development for hospital.\nApplication integrated into the company's platform with chat startup, and connected with the APIs of the State Meteorological Agency (AEMET) and Google Fit, to analyse the evolution of patients, and that medical staff have access to this information, which otherwise would be unfeasible. \n\n\nTASKS:\n\n    - Online training on MongoDB https://university.mongodb.com/courses/M001/about MongoDB Basics\n    - Documentation work on my work on the KER project: integration of the company's web platform with the Google Fit REST API.\n    - Integration of the Google Fit REST API into the whenwhyhow.tech platform: making HTTP Request from the Google console to the Fit REST API.\n    - Training in the whenwhyhow.tech platform, consumption of data from the REST API, Backend, Frontend and task switching: Python test to perform HTTP Request (requests) to OpenData AEMET. Training in Python for the consumption of the REST API https://www.youtube.com/playlistlist=PLpOqH6AE0tNguX5SG8HpcD3lfmzWrIn9n\n    - Manipulate the OpenData AEMET response to the HTTP Request, to collect the relevant data from the response and persist them.\n    - Work together the response returned by OpenData AEMET to the HTTP Request and access it, to print it in the console.\n    - Select the relevant data from the OpenData AEMET response, and write them to a file, to persist and check them.\n    - Show the work done to Juan(CEO) and Lorena on obtaining the json file from the Http Request to the AEMET OpenData REST API, with the relevant information from the Madrid Airport weather station from 01-01-2021 to 30-09-21.\n    - Creation of the connector between the python script and MongoDB, to introduce in the database collection, the items related to the relevant information of each day of the same weather station (MADRID AIRPORT).\n    - Working on the connection of the Python script with the Google Fit REST API to request data on demand.\n    - Creation of ranges to store AEMET OpenData objects and send them to the REST API of the company whenwhyhow.tech.\n    - Receiving the values included in the ranges and assigning them a category depending on the range they are in.\n    - Creation of a python file to communicate with the whenwhyhow.tech API and be able to make a POST request and insert objects, only with the data relating to the contexts created by Juan (CEO): average temperature, sunshine and precipitation.\n    - Resolution of the errors in the introduction of objects in the MongoDB database of whenwhyhow.tech, which is hosted on AWS (Amazon Web Services).\n    - Refactoring of the Python script that introduces meteorological items into the mongoDB database hosted on AWS.\n    - Reading of CSV file with test data for its introduction into the company's MongoDB database.\n    - Input of new items extracted from Lorena's (whenwhyhow.tech team member) Google Fit health application, such as active minutes, steps and distance, into the mongoDB database.\n    - Entering three items (steps, active minutes and distance) from Gooble Fit into MongoDB, without the mediation of the REST API.\n    - Adding to the three physical health items, another five mental health items extracted from the chatboot of the whenwhyhow.tech web platform, to the mongo database, without using the REST API, which is not operational.\n    - Reading the Google Fit-related items entered in the company's MongoDB database, extracting them (active minutes, steps and distance) over a period of one year, calculating the standard deviation, and printing them in a JSON file.\n    - Tutorial study on the use of AWS (Amazon Web Services) lambdas functions to deploy applications, coded in different languages, on the company's Amazon server.\n    - Deployment of Ionic application and Node application using lambda functions on the company's Amazon server (AWS)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "API",
+                "type": "technology"
+              },
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "Visual Studio Code",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "My Pharma Memory",
+          "description": "Funcionalidad\nLa app se ha pensado para almacenar los medicamentos y fármacos que tenemos en\nnuestro hogar.\nTambién existirá la opción de añadir al sistema, de forma manual, un nuevo fármaco.\nAdemás de biblioteca de fármacos, tendrá la capacidad de leer los códigos, ya sean de\nbarras, QR o Data Matrix.\nSe ha tenido en cuenta la necesidad de aprovechamiento de antiguos medicamentos que\npor falta de memoria, se acaban caducando, en ocasiones casi enteros.\nPor eso, surge la idea de tener controlados los fármacos de los que disponemos en casa,\nsu uso, caducidad. Es una cuestión de “reciclaje”, y de ahorro del gasto y del consumo,\ntan necesario para tantas familias en los tiempos que corren.\nPuede llevar a equívoco, porque podría interpretarse como una biblioteca de\nmedicamentos, y en cierta manera lo es. Pero no es esa la función principal, sino controlar\npara gestionar, los medicamentos que cada persona toma o ha tomado y puede volver a\nnecesitar. En principio, no parece muy útil, ni muy cómodo, convertir a la app es una vasta\ncolección de medicamentos que nunca se han consumido, o se han necesitado. Aunque\ntendrá la opción de acceder a la web del Ministerio de Sanidad, que a su vez dispone de\nun enlace a la guía de medicamentos de la Agencia Española del medicamento.\nLa funcionalidad de la aplicación se divide en:\n• creación de cuenta de usuario: esta propiedad/funcionalidad da acceso al resto\nde opciones:\n◦ lector de código: mediante el acceso a la cámara principal del dispositivo, el\nlector será capaz de interpretar el código Data-Matrix, que se utilizará para\nextraer el código nacional del fármaco, y\n▪ redirigir, de una forma automática, al usuario a la web donde se encuentra\nel documento html relativo al prospecto del medicamento.\n▪ Introducción de fármacos en la farmacia personal del usuario, con el\nrellenado de un pequeño formulario con los datos más relevantes del\nmedicamento.\n▪ Listar los fármacos de la farmacia personal de usuario: función que\nconecta con la base de datos de Google en la nube y devuelve los datos\nrelativos al medicamento, como son el nombre y fecha de caducidad.",
+          "URL": "https://github.com/john-sunday/My_Pharma_Memory_MVC",
+          "image": {
+            "alt": "spain_pill.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/25/cb0fafd0-346b-4d51-bf2a-fe88c956c814_spain_pill.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-09-01",
+            "competences": [
+              {
+                "name": "Android Studio",
+                "type": "technology"
+              },
+              {
+                "name": "Cloud Firestore",
+                "type": "technology"
+              },
+              {
+                "name": "Firebase",
+                "type": "technology"
+              },
+              {
+                "name": "Kotlin",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "English"
+      },
+      {
+        "name": "Spanish"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "JAVA",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring Boot",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Oracle",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Eclipse",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio Code",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": ".NET",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C#",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Basic",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Firebase",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Android",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kotlin",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Android Studio",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQLServer",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PL/SQL",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Training Cycle of High Grade in Multiplatform Applications Development (FP)",
+        "startDate": "2018-09-01",
+        "finishDate": "2021-12-01",
+        "institution": {
+          "name": "I.E.S. Barajas (Barajas, Madrid)",
+          "description": "It's a public and official higher education recognised by the European Union.\nThe cycle is focused on the backend, and consists of two academic courses:\n\n1º:\n-Data Bases: SQL, querys, script sql, DB theory(Relational Databases, Relational Model), DDL, DML, DCL, TCL, PL-SQL(Triggers,Functions,Functions).\n-Development Environment: Software Development basics theory, IDE's, UML Diagram Design, Versions, Tests.\n-Markup Language: HTML5, CSS2-3, Xml-Xpath, Xml-Dtd, Xquery, Xml-Xslt.\n-Programming: Java -> Java Standard Edition(POO, Exceptions, Inheritance, Polimorfism, etc)\n-Informatic Systems: Software and Harware Theory, Linux->Commands and Scripts, Operative Systems, File System.\n\n2º:\n-Data Access: IO, NIO, JDBC, Xml access, ORM\n-Interfaces Development: .NET -> C#, Visual Basic -> Visual Studio.\n-On-the-Job Training: work practices -> 380 hours.\n-English:\n-Multimedia Programming on Mobile Devices: Android -> Java Apps -> Android Studio.\n-Service and Process Programming: Multiprocess, Multi-Thread, Network Programming, Comunications Protocols.\n-business management systems: Enterprise Resources Planningm(ERP), Customer Relationship Managment(CRM), Python scripts.\n-Cycle Final Project",
+          "URL": "https://aulavirtual32.educa.madrid.org/ies.barajas.madrid/"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": "https://www.linkedin.com/in/juan-domingo/"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "AWS",
+          "type": "technology"
+        },
+        {
+          "name": "Firebase",
+          "type": "technology"
+        },
+        {
+          "name": "JAVA",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "Python",
+          "type": "technology"
+        }
+      ]
+    }
+  }
+}
