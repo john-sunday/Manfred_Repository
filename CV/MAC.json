@@ -1,28 +1,22 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "EN",
+    "language": "ES",
     "MACVersion": "0.3"
   },
   "aboutMe": {
     "profile": {
       "name": "Juan",
       "surnames": "Domingo Ortín",
+      "title": "Title",
       "description": "I enjoy with Java, JavaScript and Python technologies, and above all, built and run my own apps (mobile, web, desktop, etc). In the future, I would like work with AI, Machine Learning, Science Data and Big Data, but now, I'm satisfied developing Spring Boot Apps or JavaScript with React apps. I have found my passion: var myPassion => function (motivation, knowledge, years) { var index = motivation * knowledge * years ; console.log('Juan Development index = ' + index !!!) }",
       "location": {
-        "notes": "Torrejón de Ardoz"
+        "notes": "Autocompleted using Google Maps API (id: ChIJt2Zelxs3Qg0Rjq0Q9T5QF0k)",
+        "country": "España",
+        "region": "Comunidad de Madrid",
+        "municipality": "Torrejón de Ardoz"
       }
-    },
-    "relevantLinks": [
-      {
-        "type": "github",
-        "URL": "https://github.com/john-sunday?tab=repositories"
-      },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/juan-domingo/"
-      }
-    ]
+    }
   },
   "experience": {
     "jobs": [
@@ -30,8 +24,8 @@
         "organization": {
           "name": "Whenwhyhow.tech",
           "image": {
-            "alt": "wwh_logo.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/25/6cb14e94-d143-4904-9119-a3a815022dc8_wwh_logo.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/25/6cb14e94-d143-4904-9119-a3a815022dc8_wwh_logo.png",
+            "alt": "wwh_logo.png"
           },
           "URL": "https://whenwhyhow.tech/"
         },
@@ -74,8 +68,8 @@
           "description": "Funcionalidad\nLa app se ha pensado para almacenar los medicamentos y fármacos que tenemos en\nnuestro hogar.\nTambién existirá la opción de añadir al sistema, de forma manual, un nuevo fármaco.\nAdemás de biblioteca de fármacos, tendrá la capacidad de leer los códigos, ya sean de\nbarras, QR o Data Matrix.\nSe ha tenido en cuenta la necesidad de aprovechamiento de antiguos medicamentos que\npor falta de memoria, se acaban caducando, en ocasiones casi enteros.\nPor eso, surge la idea de tener controlados los fármacos de los que disponemos en casa,\nsu uso, caducidad. Es una cuestión de “reciclaje”, y de ahorro del gasto y del consumo,\ntan necesario para tantas familias en los tiempos que corren.\nPuede llevar a equívoco, porque podría interpretarse como una biblioteca de\nmedicamentos, y en cierta manera lo es. Pero no es esa la función principal, sino controlar\npara gestionar, los medicamentos que cada persona toma o ha tomado y puede volver a\nnecesitar. En principio, no parece muy útil, ni muy cómodo, convertir a la app es una vasta\ncolección de medicamentos que nunca se han consumido, o se han necesitado. Aunque\ntendrá la opción de acceder a la web del Ministerio de Sanidad, que a su vez dispone de\nun enlace a la guía de medicamentos de la Agencia Española del medicamento.\nLa funcionalidad de la aplicación se divide en:\n• creación de cuenta de usuario: esta propiedad/funcionalidad da acceso al resto\nde opciones:\n◦ lector de código: mediante el acceso a la cámara principal del dispositivo, el\nlector será capaz de interpretar el código Data-Matrix, que se utilizará para\nextraer el código nacional del fármaco, y\n▪ redirigir, de una forma automática, al usuario a la web donde se encuentra\nel documento html relativo al prospecto del medicamento.\n▪ Introducción de fármacos en la farmacia personal del usuario, con el\nrellenado de un pequeño formulario con los datos más relevantes del\nmedicamento.\n▪ Listar los fármacos de la farmacia personal de usuario: función que\nconecta con la base de datos de Google en la nube y devuelve los datos\nrelativos al medicamento, como son el nombre y fecha de caducidad.",
           "URL": "https://github.com/john-sunday/My_Pharma_Memory_MVC",
           "image": {
-            "alt": "spain_pill.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/25/cb0fafd0-346b-4d51-bf2a-fe88c956c814_spain_pill.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/25/cb0fafd0-346b-4d51-bf2a-fe88c956c814_spain_pill.png",
+            "alt": "spain_pill.png"
           }
         },
         "type": "sideProject",
@@ -89,11 +83,11 @@
                 "type": "technology"
               },
               {
-                "name": "Cloud Firestore",
+                "name": "Google Cloud Firestore",
                 "type": "technology"
               },
               {
-                "name": "Firebase",
+                "name": "Google Firebase",
                 "type": "technology"
               },
               {
@@ -109,100 +103,18 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English"
+        "name": "EN",
+        "level": "Limited working proficiency"
       },
       {
-        "name": "Spanish"
+        "name": "ES",
+        "level": "Limited working proficiency"
       }
     ],
     "hardSkills": [
       {
         "skill": {
-          "name": "JAVA",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Spring Boot",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MySQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "PostgreSQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Oracle",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Eclipse",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Visual Studio Code",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Visual Studio",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": ".NET",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "C#",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Visual Basic",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "HTML",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "CSS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Firebase",
           "type": "technology"
         }
       },
@@ -214,13 +126,97 @@
       },
       {
         "skill": {
+          "name": "Android Studio",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C#",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Eclipse",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Google Firebase",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JAVA",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Kotlin",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Android Studio",
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Oracle",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PL/SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
           "type": "technology"
         }
       },
@@ -232,7 +228,25 @@
       },
       {
         "skill": {
-          "name": "PL/SQL",
+          "name": "Spring Boot",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Basic",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio Code",
           "type": "technology"
         }
       }
@@ -243,11 +257,31 @@
         "degreeAchieved": true,
         "name": "Training Cycle of High Grade in Multiplatform Applications Development (FP)",
         "startDate": "2018-09-01",
-        "finishDate": "2021-12-01",
         "institution": {
           "name": "I.E.S. Barajas (Barajas, Madrid)",
           "description": "It's a public and official higher education recognised by the European Union.\nThe cycle is focused on the backend, and consists of two academic courses:\n\n1º:\n-Data Bases: SQL, querys, script sql, DB theory(Relational Databases, Relational Model), DDL, DML, DCL, TCL, PL-SQL(Triggers,Functions,Functions).\n-Development Environment: Software Development basics theory, IDE's, UML Diagram Design, Versions, Tests.\n-Markup Language: HTML5, CSS2-3, Xml-Xpath, Xml-Dtd, Xquery, Xml-Xslt.\n-Programming: Java -> Java Standard Edition(POO, Exceptions, Inheritance, Polimorfism, etc)\n-Informatic Systems: Software and Harware Theory, Linux->Commands and Scripts, Operative Systems, File System.\n\n2º:\n-Data Access: IO, NIO, JDBC, Xml access, ORM\n-Interfaces Development: .NET -> C#, Visual Basic -> Visual Studio.\n-On-the-Job Training: work practices -> 380 hours.\n-English:\n-Multimedia Programming on Mobile Devices: Android -> Java Apps -> Android Studio.\n-Service and Process Programming: Multiprocess, Multi-Thread, Network Programming, Comunications Protocols.\n-business management systems: Enterprise Resources Planningm(ERP), Customer Relationship Managment(CRM), Python scripts.\n-Cycle Final Project",
           "URL": "https://aulavirtual32.educa.madrid.org/ies.barajas.madrid/"
+        },
+        "finishDate": "2021-12-01"
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Capacidad de abstracción",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Proactividad",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Resistencia a la frustración",
+          "type": "practice"
         }
       }
     ]
@@ -256,8 +290,21 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/juan-domingo/"
+          "URL": "https://www.linkedin.com/in/juan-domingo/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/john-sunday?tab=repositories",
+          "type": "github"
+        }
+      ],
+      "contactMails": [
+        "jdomingo.o.dev@gmail.com"
+      ],
+      "phoneNumbers": [
+        {
+          "number": "637301833",
+          "countryCode": "+34"
         }
       ]
     },
@@ -268,7 +315,7 @@
           "type": "technology"
         },
         {
-          "name": "Firebase",
+          "name": "Google Firebase",
           "type": "technology"
         },
         {
@@ -283,7 +330,43 @@
           "name": "Python",
           "type": "technology"
         }
+      ],
+      "preferredRoles": [
+        "Data Scientist",
+        "Full-stack Developer",
+        "Machine Learning Engineer"
       ]
-    }
+    },
+    "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Git",
+        "type": "technology"
+      },
+      {
+        "name": "JavaScript",
+        "type": "technology"
+      },
+      {
+        "name": "Python",
+        "type": "technology"
+      },
+      {
+        "name": "SQL",
+        "type": "technology"
+      },
+      {
+        "name": "Spring Boot",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "I would like a job wich I be able to grow up in every way(technologically and personally). Where there is a good atmosphere and help beetwen colleagues(flexibility and understanding). To have managers and leaders who are able to help me to best out of me. And if there are good views through the windows, all the better.",
+    "projects": [
+      {
+        "name": "My Pharma Memory"
+      }
+    ]
   }
 }
