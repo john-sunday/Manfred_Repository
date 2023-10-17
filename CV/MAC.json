@@ -22,6 +22,40 @@
     "jobs": [
       {
         "organization": {
+          "name": "Freelance"
+        },
+        "roles": [
+          {
+            "name": "Fullstack Developer",
+            "startDate": "2022-05-01",
+            "finishDate": "2022-10-01",
+            "competences": [
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "Hibernate",
+                "type": "technology"
+              },
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Spring Boot",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Whenwhyhow.tech",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/25/6cb14e94-d143-4904-9119-a3a815022dc8_wwh_logo.png",
