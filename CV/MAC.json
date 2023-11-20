@@ -32,13 +32,19 @@
     "jobs": [
       {
         "organization": {
-          "name": "Freelance"
+          "name": "Freelance",
+          "URL": "https://github.com/john-sunday/Expense_Note_App-Spring_Boot"
         },
         "roles": [
           {
-            "name": "Fullstack Developer",
-            "startDate": "2022-05-01",
+            "name": "Freelance Fullstack Developer",
+            "startDate": "2022-01-01",
             "finishDate": "2022-10-01",
+            "challenges": [
+              {
+                "description": "He construido una app-web desde cero, utilizando PostgreSQL, Java Spring Boot para el backend,DBeaver,Postman(peticiones HTTP) y JUnit.\nÉsta persiste las notas de gasto y nóminas de los empleados.\n\nSe han empleando Frameworks Java como Hibernate para la conexión con la BBDD o Lombock para evitar el exceso de código en las clases, y Jason Web Token para la autenticación.\nUso de la modularización de la arquitectura.\nhttps://github.com/john-sunday/Expense_Note_App-Spring_Boot"
+              }
+            ],
             "competences": [
               {
                 "name": "Git",
@@ -383,11 +389,11 @@
       {
         "studyType": "officialDegree",
         "degreeAchieved": true,
-        "name": "Training Cycle of High Grade in Multiplatform Applications Development (FP)",
+        "name": " Ciclo Formativo de Grado Superior en Desarrollo Apliciones Multiplataforma (DAM)",
         "startDate": "2018-09-01",
         "institution": {
           "name": "I.E.S. Barajas (Barajas, Madrid)",
-          "description": "It's a public and official higher education recognised by the European Union.\nThe cycle is focused on the backend, and consists of two academic courses:\n\n1º:\n-Data Bases: SQL, querys, script sql, DB theory(Relational Databases, Relational Model), DDL, DML, DCL, TCL, PL-SQL(Triggers,Functions,Functions).\n-Development Environment: Software Development basics theory, IDE's, UML Diagram Design, Versions, Tests.\n-Markup Language: HTML5, CSS2-3, Xml-Xpath, Xml-Dtd, Xquery, Xml-Xslt.\n-Programming: Java -> Java Standard Edition(POO, Exceptions, Inheritance, Polimorfism, etc)\n-Informatic Systems: Software and Harware Theory, Linux->Commands and Scripts, Operative Systems, File System.\n\n2º:\n-Data Access: IO, NIO, JDBC, Xml access, ORM\n-Interfaces Development: .NET -> C#, Visual Basic -> Visual Studio.\n-On-the-Job Training: work practices -> 380 hours.\n-English:\n-Multimedia Programming on Mobile Devices: Android -> Java Apps -> Android Studio.\n-Service and Process Programming: Multiprocess, Multi-Thread, Network Programming, Comunications Protocols.\n-business management systems: Enterprise Resources Planningm(ERP), Customer Relationship Managment(CRM), Python scripts.\n-Cycle Final Project",
+          "description": "Es una enseñanza superior pública y oficial reconocida por la Unión Europea.\nEl ciclo se centra en la parte back, y consta de dos cursos académicos:\n\n1º:\n-Bases de Datos: SQL, querys, sql script, teoría de BD (Bases de Datos Relacionales, Modelo Relacional), DDL, DML, DCL, TCL, PL-SQL (Triggers, Functions, Procedimientos almacenados).\n-Entorno de desarrollo: Teoría Básica de Desarrollo de Software, IDE's, Diseño de Diagramas UML, Versionado, Pruebas.\n-Lenguaje de Marcado: HTML5, CSS2-3, Xml-Xpath, Xml-Dtd, Xquery, Xml-Xslt.\n-Programación: Java -> Java Standard Edition (POO, Excepciones, Herencia, Polimorfismo, etc).\n-Sistemas Informáticos: Teoría del Software y Harware, Linux->Comandos y Scripts, Sistemas Operativos, Sistema de Archivos.\n\n2º:\n-Acceso a Datos: IO, NIO, JDBC, Xml Access, ORM.\n-Desarrollo de Interfaces: .NET -> C#, Visual Basic -> Visual Studio.\nFormación en el puesto de trabajo: prácticas -> 380 horas.\n-Inglés\n-Programación Multimedia en Dispositivos Móviles: Android -> Java Apps -> Android Studio.\n-Programación de Servicios y Procesos: Multiproceso, Multithreading, Programación en Red, Protocolos de Comunicaciones.\n-Sistemas de Gestión Empresarial: Enterprise Resources Planning (ERP), Customer Relationship Management (CRM), Python scripts.\n-Proyecto de Ciclo Final",
           "URL": "https://aulavirtual32.educa.madrid.org/ies.barajas.madrid/"
         },
         "finishDate": "2021-12-01"
