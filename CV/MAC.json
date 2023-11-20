@@ -146,6 +146,52 @@
     "publicArtifacts": [
       {
         "details": {
+          "name": "Expense Note App",
+          "description": "He construido una app-web desde cero que persiste las notas de gasto y nóminas de los empleados.\n\nEl acceso se realiza con autenticación y posteriormente se puede, o no (rol de usuario y rol de administrador) realizar las operaciones de los end-points, hacer que un usuario básico sólo pueda visualizar sus datos, generando un token en la autenticación y comprobándolo.\nUso de la modularización de la arquitectura, con las capas:\nDAO o Repository -- capa conectada a la BBDD\nService -- capa que realiza el negocio\nController -- capa que recibe la Request/petición ",
+          "URL": "https://github.com/john-sunday/Expense_Note_App-Spring_Boot"
+        },
+        "type": "launch",
+        "publishingDate": "2022-10-01",
+        "tags": [
+          "Web App"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "DBeaver",
+            "type": "technology"
+          },
+          {
+            "name": "Eclipse",
+            "type": "technology"
+          },
+          {
+            "name": "Hibernate",
+            "type": "technology"
+          },
+          {
+            "name": "JAVA",
+            "type": "technology"
+          },
+          {
+            "name": "JUnit",
+            "type": "technology"
+          },
+          {
+            "name": "PostgreSQL",
+            "type": "technology"
+          },
+          {
+            "name": "Postman",
+            "type": "technology"
+          },
+          {
+            "name": "Spring Boot",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
           "name": "My Pharma Memory App",
           "description": "Proyecto Final Ciclo -> \naplicación Android-Kotlin y Firebase platform-Google, que lee el código del medicamento y muestra su información, los almacena y accede a la CIMA REST API.",
           "URL": "https://github.com/john-sunday/My_Pharma_Memory_MVC"
