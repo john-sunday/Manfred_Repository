@@ -142,6 +142,42 @@
           }
         ]
       }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "My Pharma Memory App",
+          "description": "Proyecto Final Ciclo -> \naplicación Android-Kotlin y Firebase platform-Google, que lee el código del medicamento y muestra su información, los almacena y accede a la CIMA REST API.",
+          "URL": "https://github.com/john-sunday/My_Pharma_Memory_MVC"
+        },
+        "type": "launch",
+        "publishingDate": "2021-12-01",
+        "tags": [
+          "Android App"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "API",
+            "type": "technology"
+          },
+          {
+            "name": "Android SDK",
+            "type": "technology"
+          },
+          {
+            "name": "Android Studio",
+            "type": "technology"
+          },
+          {
+            "name": "Google Firebase",
+            "type": "technology"
+          },
+          {
+            "name": "Kotlin",
+            "type": "technology"
+          }
+        ]
+      }
     ]
   },
   "knowledge": {
