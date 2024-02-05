@@ -32,16 +32,43 @@
     "jobs": [
       {
         "organization": {
-          "name": "Hi Iberia Ingeniería y Proyectos SL"
+          "name": "Hi Iberia Ingeniería y Proyectos SL",
+          "URL": "https://github.com/john-sunday/Expense_Note_App-Spring_Boot"
         },
         "roles": [
           {
             "name": "Fullstack Developer",
-            "startDate": "2022-01-01",
-            "finishDate": "2022-10-01",
+            "startDate": "2022-10-01",
+            "finishDate": "2023-04-01",
             "challenges": [
               {
-                "description": "App REVITA(teleasistencia médica):errores,nuevas funcionalidades con Javascript,PostgreSQL,Pug,CSS,Git y Flutter para app Android."
+                "description": "Desarrollo de nuevas funcionalidades, mejoras(Responsive Design) y errores en la App REVITA, qué es un software de teleasistencia médica, con las tecnologías Javascript, CSS y Pug para el Front, y Node.js y PostgreSQL para el Backend.\n\nTodo recogido con el Control de Versiones GitLab.\n "
+              }
+            ],
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "GitLab",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
               }
             ]
           }
