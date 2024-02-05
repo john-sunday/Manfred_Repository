@@ -32,6 +32,48 @@
     "jobs": [
       {
         "organization": {
+          "name": "Codevince"
+        },
+        "roles": [
+          {
+            "name": "Fullstack Developer",
+            "startDate": "2023-09-01",
+            "challenges": [
+              {
+                "description": "Rediseño del Frontend realizado en React en mi aplicación freelance \"Expense Note App\" de 2022, mejorando la usabilidad de la interface gráfica."
+              }
+            ],
+            "competences": [
+              {
+                "name": "DBeaver",
+                "type": "technology"
+              },
+              {
+                "name": "Eclipse",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Postman",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Spring Boot",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "General Software (Grupo AXPE Consulting) -> CRIDA",
           "URL": "https://www.generalsw.com/"
         },
