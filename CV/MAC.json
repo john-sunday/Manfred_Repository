@@ -32,6 +32,23 @@
     "jobs": [
       {
         "organization": {
+          "name": "Hi Iberia Ingeniería y Proyectos SL"
+        },
+        "roles": [
+          {
+            "name": "Fullstack Developer",
+            "startDate": "2022-01-01",
+            "finishDate": "2022-10-01",
+            "challenges": [
+              {
+                "description": "App REVITA(teleasistencia médica):errores,nuevas funcionalidades con Javascript,PostgreSQL,Pug,CSS,Git y Flutter para app Android."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Freelance",
           "URL": "https://github.com/john-sunday/Expense_Note_App-Spring_Boot"
         },
@@ -434,12 +451,6 @@
       ],
       "contactMails": [
         "jdomingo.o.dev@gmail.com"
-      ],
-      "phoneNumbers": [
-        {
-          "number": "637301833",
-          "countryCode": "+34"
-        }
       ]
     },
     "preferences": {
