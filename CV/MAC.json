@@ -32,6 +32,54 @@
     "jobs": [
       {
         "organization": {
+          "name": "General Software (Grupo AXPE Consulting) -> CRIDA",
+          "URL": "https://www.generalsw.com/"
+        },
+        "roles": [
+          {
+            "name": "Backend Developer",
+            "startDate": "2023-05-01",
+            "finishDate": "2023-08-01",
+            "challenges": [
+              {
+                "description": "Desarrollo de Perseo, la cual persiste el tráfico aéreo español con una amplia gama de datos.\nExtracción de microservicios a partir de funcionalidades ya creadas para aprovecharlas por diferentes aplicaciones.\nUso de Talend Open Studio para la creación de tareas(jobs) de automatización en la Extracción, Transformación y Cargar(ETL) de la base de datos.\nY uso de Queries avanzadas para análisis de la navegación aérea."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Eclipse",
+                "type": "technology"
+              },
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "Maven",
+                "type": "technology"
+              },
+              {
+                "name": "SQL",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              },
+              {
+                "name": "Talend",
+                "type": "technology"
+              },
+              {
+                "name": "YAML",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Hi Iberia Ingeniería y Proyectos SL",
           "URL": "https://github.com/john-sunday/Expense_Note_App-Spring_Boot"
         },
