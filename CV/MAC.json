@@ -617,6 +617,10 @@
           "type": "technology"
         },
         {
+          "name": "PostgreSQL",
+          "type": "technology"
+        },
+        {
           "name": "Postman",
           "type": "technology"
         },
