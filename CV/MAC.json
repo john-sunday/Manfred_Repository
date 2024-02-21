@@ -577,6 +577,10 @@
           "type": "technology"
         },
         {
+          "name": "Django",
+          "type": "technology"
+        },
+        {
           "name": "JAVA",
           "type": "technology"
         },
