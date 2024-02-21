@@ -581,6 +581,10 @@
           "type": "technology"
         },
         {
+          "name": "C++",
+          "type": "technology"
+        },
+        {
           "name": "Django",
           "type": "technology"
         },
