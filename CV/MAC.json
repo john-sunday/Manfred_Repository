@@ -621,6 +621,10 @@
           "type": "technology"
         },
         {
+          "name": "REST",
+          "type": "technology"
+        },
+        {
           "name": "React Native",
           "type": "technology"
         },
