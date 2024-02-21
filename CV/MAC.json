@@ -627,6 +627,10 @@
         {
           "name": "Spring Boot",
           "type": "technology"
+        },
+        {
+          "name": "Visual Studio Code",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
