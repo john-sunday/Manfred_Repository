@@ -587,6 +587,10 @@
         {
           "name": "Python",
           "type": "technology"
+        },
+        {
+          "name": "Spring Boot",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
