@@ -597,6 +597,10 @@
           "type": "technology"
         },
         {
+          "name": "React Native",
+          "type": "technology"
+        },
+        {
           "name": "SQL",
           "type": "technology"
         },
