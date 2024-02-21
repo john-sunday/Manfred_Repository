@@ -681,6 +681,12 @@
           "type": "technology"
         }
       ],
+      "discardedCompetences": [
+        {
+          "name": ".NET",
+          "type": "technology"
+        }
+      ],
       "preferredRoles": [
         "Backend Developer",
         "Full-stack Developer"
