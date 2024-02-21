@@ -687,6 +687,10 @@
           "type": "technology"
         },
         {
+          "name": "Talend",
+          "type": "technology"
+        },
+        {
           "name": "Windows",
           "type": "technology"
         }
