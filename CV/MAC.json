@@ -601,6 +601,10 @@
           "type": "technology"
         },
         {
+          "name": "Git",
+          "type": "technology"
+        },
+        {
           "name": "Google Cloud",
           "type": "technology"
         },
