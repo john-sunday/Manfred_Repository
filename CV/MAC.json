@@ -685,6 +685,10 @@
         {
           "name": ".NET",
           "type": "technology"
+        },
+        {
+          "name": "Windows",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
