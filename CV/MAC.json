@@ -601,6 +601,10 @@
           "type": "technology"
         },
         {
+          "name": "Linux",
+          "type": "technology"
+        },
+        {
           "name": "MongoDB",
           "type": "technology"
         },
