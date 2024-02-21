@@ -597,6 +597,10 @@
           "type": "technology"
         },
         {
+          "name": "Flask",
+          "type": "technology"
+        },
+        {
           "name": "Google Cloud",
           "type": "technology"
         },
