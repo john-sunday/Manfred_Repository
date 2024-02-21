@@ -617,6 +617,10 @@
           "type": "technology"
         },
         {
+          "name": "Postman",
+          "type": "technology"
+        },
+        {
           "name": "Python",
           "type": "technology"
         },
