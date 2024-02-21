@@ -613,6 +613,10 @@
           "type": "technology"
         },
         {
+          "name": "JSON",
+          "type": "technology"
+        },
+        {
           "name": "JavaScript",
           "type": "technology"
         },
