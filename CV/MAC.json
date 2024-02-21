@@ -665,6 +665,10 @@
           "type": "technology"
         },
         {
+          "name": "Spring",
+          "type": "technology"
+        },
+        {
           "name": "Spring Boot",
           "type": "technology"
         },
