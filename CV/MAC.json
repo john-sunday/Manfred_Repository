@@ -589,6 +589,10 @@
           "type": "technology"
         },
         {
+          "name": "Google Cloud",
+          "type": "technology"
+        },
+        {
           "name": "JAVA",
           "type": "technology"
         },
