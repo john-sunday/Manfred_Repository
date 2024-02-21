@@ -573,6 +573,10 @@
     "preferences": {
       "preferredCompetences": [
         {
+          "name": "API",
+          "type": "technology"
+        },
+        {
           "name": "AWS",
           "type": "technology"
         },
