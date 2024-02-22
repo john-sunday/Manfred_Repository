@@ -187,6 +187,10 @@
       {
         "organization": {
           "name": "Hi Iberia Ingeniería y Proyectos SL",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/22/38d0b558-5f61-4a9f-994c-362d23320af4_hi_iberia-logo.jpeg",
+            "alt": "hi_iberia-logo.jpeg"
+          },
           "URL": "https://www.hi-iberia.es/"
         },
         "roles": [
@@ -196,12 +200,20 @@
             "finishDate": "2023-04-01",
             "challenges": [
               {
-                "description": "Desarrollo de nuevas funcionalidades, mejoras(Responsive Design) y errores en la App REVITA, qué es un software de teleasistencia médica, con las tecnologías Javascript, CSS y Pug para el Front, y Node.js y PostgreSQL para el Backend.\n\nTodo recogido con el Control de Versiones GitLab.\n "
+                "description": "Desarrollo de nuevas funcionalidades, mejoras(Responsive Design) y solución de errores en la App de teleasistencia médica REVITA(JavaScript).\nTambién en aplicación TAMUS como software de gestión de restaurantes construido en Java.\n\n "
               }
             ],
             "competences": [
               {
+                "name": "AJAX",
+                "type": "technology"
+              },
+              {
                 "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Flutter",
                 "type": "technology"
               },
               {
@@ -213,7 +225,23 @@
                 "type": "technology"
               },
               {
+                "name": "Gitflow",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "J2EE",
+                "type": "technology"
+              },
+              {
                 "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Linux",
                 "type": "technology"
               },
               {
@@ -222,6 +250,14 @@
               },
               {
                 "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Trello",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
                 "type": "technology"
               }
             ]
