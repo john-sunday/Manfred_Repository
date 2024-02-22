@@ -75,6 +75,10 @@
       {
         "organization": {
           "name": "General Software (Grupo AXPE Consulting) -> CRIDA",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/22/8e3fe6ea-3eb3-470e-aa9b-66b9650f71eb_axpe-logo.png",
+            "alt": "axpe-logo.png"
+          },
           "URL": "https://www.generalsw.com/"
         },
         "roles": [
