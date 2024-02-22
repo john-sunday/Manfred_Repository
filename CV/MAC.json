@@ -266,7 +266,7 @@
       },
       {
         "organization": {
-          "name": "Freelance",
+          "name": "Codevince",
           "URL": "https://github.com/john-sunday/Expense_Note_App-Spring_Boot"
         },
         "roles": [
@@ -276,12 +276,20 @@
             "finishDate": "2022-10-01",
             "challenges": [
               {
-                "description": "He construido una app-web desde cero, utilizando PostgreSQL, Java Spring Boot para el backend,DBeaver,Postman(peticiones HTTP) y JUnit.\nÉsta persiste las notas de gasto y nóminas de los empleados.\n\nSe han empleando Frameworks Java como Hibernate para la conexión con la BBDD o Lombock para evitar el exceso de código en las clases, y Jason Web Token para la autenticación.\nUso de la modularización de la arquitectura.\nhttps://github.com/john-sunday/Expense_Note_App-Spring_Boot"
+                "description": "He construido una app-web desde cero, utilizando una base de datos relacional y Java Spring Boot para el backend.\nÉsta persiste las notas de gasto y nóminas de los empleados.\n\nUso de la modularización de la arquitectura y de JAson Web Token para la autenticación. "
               }
             ],
             "competences": [
               {
+                "name": "API",
+                "type": "technology"
+              },
+              {
                 "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "Github",
                 "type": "technology"
               },
               {
@@ -293,7 +301,31 @@
                 "type": "technology"
               },
               {
+                "name": "JUnit",
+                "type": "technology"
+              },
+              {
+                "name": "Linux",
+                "type": "technology"
+              },
+              {
+                "name": "MVC",
+                "type": "technology"
+              },
+              {
                 "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Postman",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
                 "type": "technology"
               },
               {
