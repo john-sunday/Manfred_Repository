@@ -40,16 +40,48 @@
             "startDate": "2023-09-01",
             "challenges": [
               {
-                "description": "Rediseño del Frontend realizado en React en mi aplicación freelance \"Expense Note App\" de 2022, mejorando la usabilidad de la interface gráfica."
+                "description": "Rediseño del Frontend realizado en React en mi aplicación freelance \"Expense Note App\" de 2022, mejorando la usabilidad de la interface gráfica para el usuario."
               }
             ],
             "competences": [
+              {
+                "name": "API",
+                "type": "technology"
+              },
               {
                 "name": "DBeaver",
                 "type": "technology"
               },
               {
                 "name": "Eclipse",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "Github",
+                "type": "technology"
+              },
+              {
+                "name": "Hibernate",
+                "type": "technology"
+              },
+              {
+                "name": "J2EE",
+                "type": "technology"
+              },
+              {
+                "name": "JUnit",
+                "type": "technology"
+              },
+              {
+                "name": "Linux",
+                "type": "technology"
+              },
+              {
+                "name": "MVC",
                 "type": "technology"
               },
               {
@@ -61,7 +93,19 @@
                 "type": "technology"
               },
               {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
                 "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "React Native",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
                 "type": "technology"
               },
               {
